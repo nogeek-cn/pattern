@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.darian.pattern.observer.core.EventListener</OriginalElement>
+  <nodes>
+    <node x="197.0" y="294.0">com.darian.pattern.observer.test.ObserverTest</node>
+    <node x="78.0" y="173.0">com.darian.pattern.observer.subject.Subject</node>
+    <node x="0.0" y="294.0">com.darian.pattern.observer.subject.SubjectEventType</node>
+    <node x="349.0" y="0.0">com.darian.pattern.observer.core.Event</node>
+    <node x="0.0" y="0.0">com.darian.pattern.observer.core.EventListener</node>
+    <node x="0.0" y="461.0">com.darian.pattern.observer.subject.Observer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.darian.pattern.observer.subject.Subject" target="com.darian.pattern.observer.core.EventListener">
+      <point x="0.0" y="-38.0" />
+      <point x="0.0" y="61.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="249.5" y="292.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.darian.pattern.observer.mouse.Mouse</OriginalElement>
+  <nodes>
+    <node x="-205.0" y="141.0">com.darian.pattern.observer.mouse.MouseEventType</node>
+    <node x="349.0" y="0.0">com.darian.pattern.observer.mouse.MouseEventCallBack</node>
+    <node x="65.5" y="173.0">com.darian.pattern.observer.mouse.Mouse</node>
+    <node x="0.0" y="0.0">com.darian.pattern.observer.core.EventListener</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.darian.pattern.observer.mouse.Mouse" target="com.darian.pattern.observer.core.EventListener">
+      <point x="0.0" y="-95.5" />
+      <point x="0.0" y="61.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="77.5" y="208.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
