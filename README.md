@@ -4,7 +4,7 @@
 
 - 该项目用于学习设计模式。
 
-
+### [文档地址](<https://darian1996.github.io/2019/08/15/GOF23%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/>) 
 
 ### 结构
 
@@ -79,47 +79,39 @@
 
 ### 代码目录
 
-- 
+>  [my_own_pattern_23](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23)  / [src](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src) / [main](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main)  /  [java](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java) / [com](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com) / [darian](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian) / [pattern_23](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23)  目录下面：
 
-- [my_own_pattern_23](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23) 
+- [_01_simpleFactory](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_01_simpleFactory) 
 
-  - [src](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src) 
-
-    - [main](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main) 
-
-      - [java](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java)/[com](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com)/[darian](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian)/[pattern_23](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23) 
-
-        - [_01_simpleFactory](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_01_simpleFactory) 
-
-        - [_02_factoryMethod](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_02_factoryMethod) 
-        - [_03_abstractFactory](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_03_abstractFactory) 
-        - [_04_testFactory](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_04_testFactory) 
-        - [_05_singleton](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_05_singleton) 
-        - [_06_prototype](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_06_prototype) 
-        - [_07_builder](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_07_builder) 
-        - [_08_Decorator](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_08_Decorator)  
-        - [_09_Strategy](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_09_Strategy) 
-        - [_10_observer](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_10_observer)    
-        - [_11_Flyweight](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_11_Flyweight)    
-        - [_12_Proxy](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_12_Proxy)    
-        - [_13_facade](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_13_facade)     
-        - [_14_composite](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_14_composite)     
-        - [_15_Bridge](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_15_Bridge)/[eg1](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_15_Bridge/eg1) 
-        - [_16_Adapter](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_16_Adapter) 
-        - [_17_Interpreter](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_17_Interpreter)    
-        - [_18_Mediator](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_18_Mediator)  
-        - [_19_COR](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_19_COR)    
-        - [_20_Iterator](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_20_Iterator)   
-        - [_21_template](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_21_template)     
-        - [_22_Memento](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_22_Memento)   
-        - [_23_State](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_23_State)   
-        - [_24_Command](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_24_Command)  
-        - [_25_Visitor](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_25_Visitor)    
-        - [_26_OCP](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_26_OCP) 
-        - [_27_SRP](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_27_SRP) 
-        - [_28_LSP](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_28_LSP) 
-        - [_29_DIP](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_29_DIP)    
-        - [_30_LoD](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_30_LoD)     
+- [_02_factoryMethod](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_02_factoryMethod) 
+- [_03_abstractFactory](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_03_abstractFactory) 
+- [_04_testFactory](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_04_testFactory) 
+- [_05_singleton](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_05_singleton) 
+- [_06_prototype](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_06_prototype) 
+- [_07_builder](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_07_builder) 
+- [_08_Decorator](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_08_Decorator)  
+- [_09_Strategy](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_09_Strategy) 
+- [_10_observer](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_10_observer)    
+- [_11_Flyweight](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_11_Flyweight)    
+- [_12_Proxy](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_12_Proxy)    
+- [_13_facade](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_13_facade)     
+- [_14_composite](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_14_composite)     
+- [_15_Bridge](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_15_Bridge)/[eg1](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_15_Bridge/eg1) 
+- [_16_Adapter](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_16_Adapter) 
+- [_17_Interpreter](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_17_Interpreter)    
+- [_18_Mediator](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_18_Mediator)  
+- [_19_COR](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_19_COR)    
+- [_20_Iterator](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_20_Iterator)   
+- [_21_template](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_21_template)     
+- [_22_Memento](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_22_Memento)   
+- [_23_State](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_23_State)   
+- [_24_Command](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_24_Command)  
+- [_25_Visitor](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_25_Visitor)    
+- [_26_OCP](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_26_OCP) 
+- [_27_SRP](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_27_SRP) 
+- [_28_LSP](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_28_LSP) 
+- [_29_DIP](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_29_DIP)    
+- [_30_LoD](https://github.com/Darian1996/pattern/tree/master/my_own_pattern_23/src/main/java/com/darian/pattern_23/_30_LoD)     
 
 
 
