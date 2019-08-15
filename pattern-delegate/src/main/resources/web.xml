@@ -3,6 +3,6 @@
     <servlet-class>com.darian.pattern..XXXServlet</servlet-class>
 </servlet>
 <servlet-pattern>
-    <servlet-name>aaa</servlet-name>
-    <servlet-url>/wen/xxx.do</servlet-url>
+<servlet-name>aaa</servlet-name>
+<servlet-url>/wen/xxx.do</servlet-url>
 </servlet-pattern>

@@ -5,6 +5,6 @@ package com.darian.pattern.delegte.mvc.controllers;
  * <br>Darian
  **/
 public class OrderAction {
-    public void getMemberById(String mId){
+    public void getMemberById(String mId) {
     }
 }

@@ -2,6 +2,39 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <option name="BUILD_PROCESS_HEAP_SIZE" value="2000" />
-    <bytecodeTargetLevel target="8" />
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pattern-adapter" />
+        <module name="pattern-decorator" />
+        <module name="pattern-delegate" />
+        <module name="pattern-facotry" />
+        <module name="pattern-observer" />
+        <module name="pattern-prototype" />
+        <module name="pattern-proxy" />
+        <module name="pattern-singleton" />
+        <module name="pattern-strategy" />
+        <module name="pattern-template" />
+        <module name="pattern.singleton" />
+        <module name="pattern_23" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="pattern" target="1.8" />
+      <module name="pattern-adapter" target="1.8" />
+      <module name="pattern-decorator" target="1.5" />
+      <module name="pattern-delegate" target="1.8" />
+      <module name="pattern-facotry" target="6" />
+      <module name="pattern-observer" target="1.8" />
+      <module name="pattern-prototype" target="1.8" />
+      <module name="pattern-proxy" target="6" />
+      <module name="pattern-singleton" target="1.8" />
+      <module name="pattern-strategy" target="8" />
+      <module name="pattern-template" target="1.8" />
+      <module name="pattern.singleton" target="1.8" />
+      <module name="pattern_23" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

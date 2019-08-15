@@ -1,5 +1,6 @@
 package com.darian.pattern.adapter;
 
+import lombok.Builder;
 import lombok.Data;
 
 /**
@@ -7,6 +8,7 @@ import lombok.Data;
  * <br>Darian
  **/
 @Data
+@Builder
 public class Member {
     private String userName;
     private String password;

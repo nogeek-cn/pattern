@@ -1,6 +1,9 @@
 package com.darian.pattern.adapter.test;
 
+import com.darian.pattern.adapter.ResultMsg;
 import com.darian.pattern.adapter.passport.SiginForThirdService;
+
+import static com.darian.pattern.adapter.passport.SiginForThirdService.QQ_OPEN_ID;
 
 /**
  * <br>
@@ -11,6 +14,7 @@ public class SiginForThirdServiceTest {
         SiginForThirdService service = new SiginForThirdService();
         // 不改变原来的代码，也能兼容新的需求
         // 还可以再加一层策略模式
-        service.loginForQQ("dsfasdfadfasf");
+        ResultMsg resultMsg = service.loginForQQ(QQ_OPEN_ID);
+        System.out.println(resultMsg);
     }
 }
