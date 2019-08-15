@@ -17,10 +17,12 @@ public abstract class AbstractFactory {
      * 获得一个 MengNiu
      **/
     public abstract Milk getMengNiu();
+
     /**
      * 获得一个 YiLi
      **/
     public abstract Milk getYiLi();
+
     /**
      * 获得一个 TeLunSu
      **/

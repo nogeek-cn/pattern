@@ -1,7 +1,6 @@
 package com.darian.pattern.factory.AbstarctFactory;
 
 /**
- *
  * <br>Darian
  **/
 public class AbstractFactoryTest {
