@@ -19,7 +19,7 @@ public class BeanFactory {
             Object obj = null;
             try {
                 obj = Class.forName(className).newInstance();
-                 ioc.put(className, obj);
+                ioc.put(className, obj);
             } catch (Exception e) {
                 e.printStackTrace();
             }

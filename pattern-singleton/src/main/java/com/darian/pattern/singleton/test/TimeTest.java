@@ -9,7 +9,7 @@ import java.lang.reflect.InvocationTargetException;
  * <br>Darian
  **/
 public class TimeTest {
-    public static void main(String[] args)   {
+    public static void main(String[] args) {
         long start = System.currentTimeMillis();
         int count = 20000000;
         for (int i = 0; i < count; i++) {

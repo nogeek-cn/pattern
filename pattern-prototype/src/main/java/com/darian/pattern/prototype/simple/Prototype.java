@@ -10,7 +10,7 @@ import java.util.List;
  * <br>Darian
  **/
 @Data
-public class Prototype  implements  Cloneable{
+public class Prototype implements Cloneable {
     private String name;
     private CloneTarget cloneTarget;
 

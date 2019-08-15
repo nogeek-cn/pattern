@@ -5,13 +5,13 @@ package com.darian.pattern.singleton.register;
  * 常量不就是用来大家都去使用的吗
  **/
 public enum Color {
-    RED(){
+    RED() {
         private int r = 255;
     },
-    BLACK(){
+    BLACK() {
         private int r = 1;
     },
-    WHITE(){
+    WHITE() {
         private int r = 3;
     }
 }

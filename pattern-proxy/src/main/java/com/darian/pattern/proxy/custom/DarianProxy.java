@@ -64,21 +64,21 @@ public class DarianProxy {
         sb.append("import java.lang.reflect.Method;" + ln);
         sb.append("public class $Proxy0 implements " + interfaces[0].getName() + "{" + ln);
 
-            sb.append("DarianInvocationHandler h;" + ln);
-            sb.append("public $Proxy0(DarianInvocationHandler h){" + ln);
-                sb.append("this.h = h;");
-            sb.append("}" + ln);
+        sb.append("DarianInvocationHandler h;" + ln);
+        sb.append("public $Proxy0(DarianInvocationHandler h){" + ln);
+        sb.append("this.h = h;");
+        sb.append("}" + ln);
 
-            for (Method m : interfaces[0].getMethods()) {
-                sb.append("public " + m.getReturnType().getName() + " " + m.getName() + "(){" + ln);
-                    sb.append("try{" + ln);
-                        sb.append("Method m = " + interfaces[0].getName() + ".class.getMethod(\"" + m.getName() + "\",new Class[]{});" + ln);
-                        sb.append("this.h.invoke(this, m, null);" + ln);
-                    sb.append("}catch(Throwable e){" + ln);
-                        sb.append("e.printStackTrace();" + ln);
-                    sb.append("}" + ln);
-                sb.append("}");
-            }
+        for (Method m : interfaces[0].getMethods()) {
+            sb.append("public " + m.getReturnType().getName() + " " + m.getName() + "(){" + ln);
+            sb.append("try{" + ln);
+            sb.append("Method m = " + interfaces[0].getName() + ".class.getMethod(\"" + m.getName() + "\",new Class[]{});" + ln);
+            sb.append("this.h.invoke(this, m, null);" + ln);
+            sb.append("}catch(Throwable e){" + ln);
+            sb.append("e.printStackTrace();" + ln);
+            sb.append("}" + ln);
+            sb.append("}");
+        }
         sb.append("}" + ln);
         return sb.toString();
     }

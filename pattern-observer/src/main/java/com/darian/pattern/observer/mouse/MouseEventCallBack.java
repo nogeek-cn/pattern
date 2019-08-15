@@ -4,7 +4,7 @@ import com.darian.pattern.observer.core.Event;
 
 /**
  * 观察者
- *
+ * <p>
  * 回调响应的逻辑，由自己实现
  * <br>Darian
  **/

@@ -21,13 +21,13 @@ public class JDKMeiPo implements InvocationHandler {
         // 下半节，深入底层将界字节码是如何重组的。
         // 用来生成一个新的对象（字节码重组来实现）
         //  public static Object newProxyInstance(ClassLoader loader, Class<?>[] interfaces,InvocationHandler h)
-       return  Proxy.newProxyInstance(clazz.getClassLoader(), clazz.getInterfaces(), this);
+        return Proxy.newProxyInstance(clazz.getClassLoader(), clazz.getInterfaces(), this);
     }
 
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
         System.out.println("我是媒婆，我要给你找对象，现在已经拿到你的需求");
         System.out.println("开始物色");
-        method.invoke(this.target,args);
+        method.invoke(this.target, args);
         System.out.println("如果合适的话，就准备办事！");
         return null;
     }

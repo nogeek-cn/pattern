@@ -20,7 +20,7 @@ public class ObserverTest {
             // 这里写 Lily
             Subject subject = new Subject();
             subject.addListener(SubjectEventType.ON_ADD, observer, advice);
-            subject.addListener(SubjectEventType.ON_REMOVE, observer,advice);
+            subject.addListener(SubjectEventType.ON_REMOVE, observer, advice);
 
             subject.add();
             subject.remore();

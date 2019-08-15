@@ -16,14 +16,16 @@ public class Seriable implements Serializable {
     // 通过 I/O 流的读取，进而将读取的内容转换为 JAVA 对象
     // 在转化过程中会重新创建对象 new 
 
-    public final static  Seriable INSTANCE = new Seriable();
+    public final static Seriable INSTANCE = new Seriable();
 
-    private Seriable(){}
-    public static Seriable getInstance(){
+    private Seriable() {
+    }
+
+    public static Seriable getInstance() {
         return INSTANCE;
     }
 
-    private Object readResolve(){
+    private Object readResolve() {
         return INSTANCE;
     }
 

@@ -5,7 +5,7 @@ package com.darian.pattern.singleton.lazy;
  * 特点：在外部类被调用的时候，内部类才会被加载
  * 内部类一定是要在方法调用之前初始化
  * 巧妙的避免了线程安全问题
- *
+ * <p>
  * 这种形式兼顾了懒汉式的内存浪费，也兼顾 synchronized 性能问题
  * 完美的屏蔽了这两个缺点
  * 史上最牛逼的单例的模式的实现方式
@@ -20,7 +20,7 @@ public class LazyThreeBoolean {
         synchronized (LazyThreeBoolean.class) {
             if (initialized == false) {
                 initialized = !initialized;
-            }else {
+            } else {
                 throw new RuntimeException("单例已经被侵犯！！！");
             }
         }

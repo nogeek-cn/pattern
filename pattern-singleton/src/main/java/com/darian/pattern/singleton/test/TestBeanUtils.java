@@ -25,7 +25,7 @@ public class TestBeanUtils {
         TestBeanUtilsObject testBeanUtilsObject2_b = new TestBeanUtilsObject();
         // apache -> copyProperties ( dest ->  orig)
         // 复制品 -> 源信息
-        org.apache.commons.beanutils.BeanUtils.copyProperties(testBeanUtilsObject2_b,  testBeanUtilsObject2_a);
+        org.apache.commons.beanutils.BeanUtils.copyProperties(testBeanUtilsObject2_b, testBeanUtilsObject2_a);
         System.out.println(testBeanUtilsObject2_b);
     }
 }
