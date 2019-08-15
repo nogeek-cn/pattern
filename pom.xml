@@ -25,7 +25,7 @@
         <module>pattern-proxy</module>
         <module>pattern-template</module>
         <module>pattern-strategy</module>
-        <module>pattern_23</module>
+        <module>my_own_pattern_23</module>
     </modules>
 
     <properties>
