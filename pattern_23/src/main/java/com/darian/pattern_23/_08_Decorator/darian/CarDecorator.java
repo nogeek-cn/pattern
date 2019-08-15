@@ -1,19 +1,19 @@
 package com.darian.pattern_23._08_Decorator.darian;
 
-public abstract class CarDecorator implements Car{
-	private Car car;
-	
-	public Car getCar() {
-		return car;
-	}
+public abstract class CarDecorator implements Car {
+    private Car car;
 
-	public void setCar(Car car) {
-		this.car = car;
-	}
+    public Car getCar() {
+        return car;
+    }
 
-	public CarDecorator(Car car) {
-		this.car = car;
-	}
-	
-	public abstract void show();
+    public void setCar(Car car) {
+        this.car = car;
+    }
+
+    public CarDecorator(Car car) {
+        this.car = car;
+    }
+
+    public abstract void show();
 }

@@ -6,24 +6,24 @@ import java.util.List;
 
 
 public class BookList {
-	private List<Book> bookList;
-	private int index;
-	private Iterator iterator;
+    private List<Book> bookList;
+    private int index;
+    private Iterator iterator;
 
-	public BookList() {
-		bookList = new ArrayList<Book>();
-	}
+    public BookList() {
+        bookList = new ArrayList<Book>();
+    }
 
-	//添加书籍
-	public void addBook(Book book) {
-		bookList.add(book);
-	}
+    //添加书籍
+    public void addBook(Book book) {
+        bookList.add(book);
+    }
 
-	//删除书籍
-	public void deleteBook(Book book) {
-		int bookIndex = bookList.indexOf(book);
-		bookList.remove(bookIndex);
-	}
+    //删除书籍
+    public void deleteBook(Book book) {
+        int bookIndex = bookList.indexOf(book);
+        bookList.remove(bookIndex);
+    }
 
 //	//判断是否有下一本书
 //	public boolean hasNext() {
@@ -42,27 +42,27 @@ public class BookList {
 //		return bookList;
 //	}
 
-	public Iterator Iterator() {
-		return new Itr();
-	}
+    public Iterator Iterator() {
+        return new Itr();
+    }
 
-	private class Itr implements Iterator{
+    private class Itr implements Iterator {
 
-		public boolean hasNext() {
-			if(index >= bookList.size()) {
-				return false;
-			}
-			return true;
-		}
+        public boolean hasNext() {
+            if (index >= bookList.size()) {
+                return false;
+            }
+            return true;
+        }
 
-		public Object next() {
-			return bookList.get(index++);
-		}
+        public Object next() {
+            return bookList.get(index++);
+        }
 
-		public void remove() {
+        public void remove() {
 
-		}
+        }
 
-	}
+    }
 
 }

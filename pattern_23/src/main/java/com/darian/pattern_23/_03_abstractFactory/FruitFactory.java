@@ -6,7 +6,7 @@ package com.darian.pattern_23._03_abstractFactory;
  */
 public interface FruitFactory {
 
-   Apple getApple();
+    Apple getApple();
 
-   Banana getBanana();
+    Banana getBanana();
 }

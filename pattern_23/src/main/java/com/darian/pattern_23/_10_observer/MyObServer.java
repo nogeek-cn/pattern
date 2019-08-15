@@ -5,8 +5,8 @@ import java.util.Observer;
 
 public class MyObServer implements Observer {
 
-	@Override
-	public void update(Observable o, Object arg) {
-		System.out.println( o + " update: " + arg);
-	}
+    @Override
+    public void update(Observable o, Object arg) {
+        System.out.println(o + " update: " + arg);
+    }
 }

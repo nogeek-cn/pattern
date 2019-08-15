@@ -6,29 +6,29 @@ import java.util.List;
  * 文件的抽象
  **/
 public class File implements IFile {
-	private String name;
-	
-	public File(String name) {
-		this.name = name;
-	}
+    private String name;
 
-	public void display() {
-		System.out.println(name);
-	}
+    public File(String name) {
+        this.name = name;
+    }
 
-	@Deprecated
-	public List<IFile> getChild() {
-		return null;
-	}
+    public void display() {
+        System.out.println(name);
+    }
 
-	@Deprecated
-	public boolean add(IFile file) {
-		return false;
-	}
+    @Deprecated
+    public List<IFile> getChild() {
+        return null;
+    }
 
-	@Deprecated
-	public boolean remove(IFile file) {
-		return false;
-	}
+    @Deprecated
+    public boolean add(IFile file) {
+        return false;
+    }
+
+    @Deprecated
+    public boolean remove(IFile file) {
+        return false;
+    }
 
 }

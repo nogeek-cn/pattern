@@ -1,30 +1,30 @@
 package com.darian.pattern_23._25_Visitor;
 
 public class Park implements ParkElement {
-	private String name;
-	private ParkA parkA;
-	private ParkB parkB;
-	
-	public Park() {
-		this.parkA = new ParkA();
-		this.parkB = new ParkB();
-		parkA.setName("A");
-		parkB.setName("B");
-	}
+    private String name;
+    private ParkA parkA;
+    private ParkB parkB;
 
-	public void accept(Visitor visitor) {
-		visitor.visit(this);
-		parkA.accept(visitor);
-		parkB.accept(visitor);
-		
-	}
+    public Park() {
+        this.parkA = new ParkA();
+        this.parkB = new ParkB();
+        parkA.setName("A");
+        parkB.setName("B");
+    }
 
-	public String getName() {
-		return name;
-	}
+    public void accept(Visitor visitor) {
+        visitor.visit(this);
+        parkA.accept(visitor);
+        parkB.accept(visitor);
 
-	public void setName(String name) {
-		this.name = name;
-	}
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 
 }

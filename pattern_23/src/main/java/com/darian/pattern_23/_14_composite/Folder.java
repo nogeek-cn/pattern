@@ -6,33 +6,33 @@ import java.util.List;
 /***
  * 文件夹的抽象
  */
-public class Folder implements IFile{
-	private String name;
-	private List<IFile> children;
-	
-	public Folder(String name) {
-		this.name = name;
-		children = new ArrayList<>();
-	}
-	
+public class Folder implements IFile {
+    private String name;
+    private List<IFile> children;
 
-	public void display() {
-		System.out.println(name);
-	}
-
-	public List<IFile> getChild() {
-		return children;
-	}
+    public Folder(String name) {
+        this.name = name;
+        children = new ArrayList<>();
+    }
 
 
-	public boolean add(IFile file) {
-		return children.add(file);
-	}
+    public void display() {
+        System.out.println(name);
+    }
+
+    public List<IFile> getChild() {
+        return children;
+    }
 
 
-	public boolean remove(IFile file) {
-		return children.remove(file);
-	}
+    public boolean add(IFile file) {
+        return children.add(file);
+    }
+
+
+    public boolean remove(IFile file) {
+        return children.remove(file);
+    }
 
 
 }

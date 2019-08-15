@@ -5,7 +5,7 @@ import java.util.List;
 
 
 public class MainClass {
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 //		Person person1 = new Person();
 //		person1.setName("lifengxing");
 //		person1.setAge(30);
@@ -22,21 +22,21 @@ public class MainClass {
 //		System.out.println(person2.getAge());
 //		System.out.println(person2.getSex());
 
-		Person person1 = new Person();
-		List<String> friends = new ArrayList<String>();
-		friends.add("James");
-		friends.add("Yao");
+        Person person1 = new Person();
+        List<String> friends = new ArrayList<String>();
+        friends.add("James");
+        friends.add("Yao");
 
-		person1.setFriends(friends);
+        person1.setFriends(friends);
 
-		Person person2 = person1.clone();
+        Person person2 = person1.clone();
 
-		System.out.println(person1.getFriends());
-		System.out.println(person2.getFriends());
+        System.out.println(person1.getFriends());
+        System.out.println(person2.getFriends());
 
-		friends.add("Mike");
-		person1.setFriends(friends);
-		System.out.println(person1.getFriends());
-		System.out.println(person2.getFriends());
-	}
+        friends.add("Mike");
+        person1.setFriends(friends);
+        System.out.println(person1.getFriends());
+        System.out.println(person2.getFriends());
+    }
 }

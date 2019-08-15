@@ -1,22 +1,22 @@
 package com.darian.pattern_23._23_State.darian.ex3;
 
 public class Person {
-	private int hour;
-	private State state;
+    private int hour;
+    private State state;
 
-	public int getHour() {
-		return hour;
-	}
+    public int getHour() {
+        return hour;
+    }
 
-	public void setHour(int hour) {
-		this.hour = hour;
-	}
+    public void setHour(int hour) {
+        this.hour = hour;
+    }
 
-	public Person() {
-		state = new MState();
-	}
+    public Person() {
+        state = new MState();
+    }
 
-	public void doSomething(){
+    public void doSomething() {
 //		if(hour == 7) {
 //			state = new MState();
 //			state.doSomething();
@@ -30,16 +30,16 @@ public class Person {
 //			state = new NoState();
 //			state.doSomething();
 //		}
-		state.doSomething(this);
+        state.doSomething(this);
         // 复位，都所以方法以后再执行。
-		state = new MState();
-	}
+        state = new MState();
+    }
 
-	public State getState() {
-		return state;
-	}
+    public State getState() {
+        return state;
+    }
 
-	public void setState(State state) {
-		this.state = state;
-	}
+    public void setState(State state) {
+        this.state = state;
+    }
 }

@@ -1,17 +1,17 @@
 package com.darian.pattern_23._24_Command.ex3;
 
 public class Waiter {
-	private Command command;
+    private Command command;
 
-	public Command getCommand() {
-		return command;
-	}
+    public Command getCommand() {
+        return command;
+    }
 
-	public void setCommand(Command command) {
-		this.command = command;
-	}
+    public void setCommand(Command command) {
+        this.command = command;
+    }
 
-	public void sail() {
-		command.sail();
-	}
+    public void sail() {
+        command.sail();
+    }
 }

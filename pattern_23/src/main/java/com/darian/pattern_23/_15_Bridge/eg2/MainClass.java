@@ -1,8 +1,8 @@
 package com.darian.pattern_23._15_Bridge.eg2;
 
 public class MainClass {
-	public static void main(String[] args) {
-		Car car1 = new Bus();
-		car1.install2000Engine();
-	}
+    public static void main(String[] args) {
+        Car car1 = new Bus();
+        car1.install2000Engine();
+    }
 }

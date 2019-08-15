@@ -1,6 +1,6 @@
 package com.darian.pattern_23._03_abstractFactory;
 
-public class NorthFruitFacotry implements FruitFactory{
+public class NorthFruitFacotry implements FruitFactory {
     @Override
     public Apple getApple() {
         return new NorthApple();

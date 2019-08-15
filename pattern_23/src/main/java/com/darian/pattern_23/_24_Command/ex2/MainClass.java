@@ -1,14 +1,14 @@
 package com.darian.pattern_23._24_Command.ex2;
 
 public class MainClass {
-	public static void main(String[] args) {
-		Peddler peddler = new Peddler();
+    public static void main(String[] args) {
+        Peddler peddler = new Peddler();
 //		peddler.sailApple();
 //		peddler.sailBanana();
-		
-		Command appleCommand = new AppleCommand(peddler);
-		Command bananaCommand = new BananaCommand(peddler);
-		appleCommand.sail();
-		bananaCommand.sail();
-	}
+
+        Command appleCommand = new AppleCommand(peddler);
+        Command bananaCommand = new BananaCommand(peddler);
+        appleCommand.sail();
+        bananaCommand.sail();
+    }
 }

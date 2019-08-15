@@ -1,43 +1,43 @@
 package com.darian.pattern_23._20_Iterator;
 
 public class Book {
-	private String ISBN;
-	private String name;
-	private double price;
-	
-	public Book(String isbn, String name, double price) {
-		ISBN = isbn;
-		this.name = name;
-		this.price = price;
-	}
+    private String ISBN;
+    private String name;
+    private double price;
 
-	public String getISBN() {
-		return ISBN;
-	}
+    public Book(String isbn, String name, double price) {
+        ISBN = isbn;
+        this.name = name;
+        this.price = price;
+    }
 
-	public void setISBN(String isbn) {
-		ISBN = isbn;
-	}
+    public String getISBN() {
+        return ISBN;
+    }
 
-	public String getName() {
-		return name;
-	}
+    public void setISBN(String isbn) {
+        ISBN = isbn;
+    }
 
-	public void setName(String name) {
-		this.name = name;
-	}
+    public String getName() {
+        return name;
+    }
 
-	public double getPrice() {
-		return price;
-	}
+    public void setName(String name) {
+        this.name = name;
+    }
 
-	public void setPrice(double price) {
-		this.price = price;
-	}
-	
-	public void display() {
-		System.out.println("ISBN=" + ISBN + ",name=" + name + ",price" + price);
-	}
-	
-	
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public void display() {
+        System.out.println("ISBN=" + ISBN + ",name=" + name + ",price" + price);
+    }
+
+
 }

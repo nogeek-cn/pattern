@@ -4,56 +4,56 @@ import java.util.List;
 
 
 public class MainClass {
-	public static void main(String[] args) {
-		//C盘
-		Folder rootFolder = new Folder("C:");
-		// darianOne 目录
-		Folder darianOneFolder = new Folder("darianOne");
-		// darianOne.txt文件
-		File darianOneFile = new File("darianOne.txt");
+    public static void main(String[] args) {
+        //C盘
+        Folder rootFolder = new Folder("C:");
+        // darianOne 目录
+        Folder darianOneFolder = new Folder("darianOne");
+        // darianOne.txt文件
+        File darianOneFile = new File("darianOne.txt");
 
-		rootFolder.add(darianOneFile);
-		rootFolder.add(darianOneFolder);
-
-
-		// darianOne 目录
-		Folder darianTwoFolder = new Folder("darianTwo");
-		File darianTwoFile = new File("darianTwo.txt");
-		darianOneFolder.add(darianTwoFile);
-		darianOneFolder.add(darianTwoFolder);
+        rootFolder.add(darianOneFile);
+        rootFolder.add(darianOneFolder);
 
 
-		Folder darianThreeFolder = new Folder("darianThree");
-		File darianThreeFile = new File("darianThree.txt");
-		darianTwoFolder.add(darianThreeFile);
-		darianTwoFolder.add(darianThreeFolder);
+        // darianOne 目录
+        Folder darianTwoFolder = new Folder("darianTwo");
+        File darianTwoFile = new File("darianTwo.txt");
+        darianOneFolder.add(darianTwoFile);
+        darianOneFolder.add(darianTwoFolder);
 
 
-		displayTree(rootFolder,0);
+        Folder darianThreeFolder = new Folder("darianThree");
+        File darianThreeFile = new File("darianThree.txt");
+        darianTwoFolder.add(darianThreeFile);
+        darianTwoFolder.add(darianThreeFolder);
 
-	}
 
-	public static void displayTree(IFile rootFolder, int deep) {
-		for(int i = 0; i < deep; i++) {
-			System.out.print("   ");
-		}
+        displayTree(rootFolder, 0);
 
-		System.out.print("|--");
-		//显示自身的名称
-		rootFolder.display();
-		//获得子树
-		List<IFile> children = rootFolder.getChild();
-		//遍历子树
-		for(IFile file : children) {
-			if(file instanceof File) {
-				for(int i = 0; i <= deep; i++) {
-					System.out.print("   ");
-				}
-				System.out.print("|--");
-				file.display();
-			} else {
-				displayTree(file,deep + 1);
-			}
-		}
-	}
+    }
+
+    public static void displayTree(IFile rootFolder, int deep) {
+        for (int i = 0; i < deep; i++) {
+            System.out.print("   ");
+        }
+
+        System.out.print("|--");
+        //显示自身的名称
+        rootFolder.display();
+        //获得子树
+        List<IFile> children = rootFolder.getChild();
+        //遍历子树
+        for (IFile file : children) {
+            if (file instanceof File) {
+                for (int i = 0; i <= deep; i++) {
+                    System.out.print("   ");
+                }
+                System.out.print("|--");
+                file.display();
+            } else {
+                displayTree(file, deep + 1);
+            }
+        }
+    }
 }
