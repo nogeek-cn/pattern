@@ -1,7 +1,7 @@
 package com.darian.pattern.proxy.jdk;
 
 import com.darian.pattern.staticed.Person;
-import sun.misc.ProxyGenerator;
+
 
 import java.io.FileOutputStream;
 
