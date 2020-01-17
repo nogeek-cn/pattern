@@ -1,11 +1,13 @@
-ï»¿:: è¿™æ¡å‘½ä»¤ä½¿ç”¨å½“å‰æ—¶é—´æ¥ä½œä¸º commit çš„ä¿¡æ¯
+::  ÕâÌõÃüÁîÊ¹ÓÃµ±Ç°Ê±¼äÀ´×÷Îª commit µÄĞÅÏ¢
 set commit_msg= %date:~0,10%   %time% AutoCommit.bat by Darian
 git status 
 git add * 
 git commit -m "%commit_msg%" 
+
 git pull github master
 git push github master
-:: make a pause è¿™æ¡å‘½ä»¤ç”¨æ¥ç­‰å¾…
+
+:: make a pause ÕâÌõÃüÁîÓÃÀ´µÈ´ı
 :: pause
-:: Exit ç”¨æ¥æ¨å‡ºå½“å‰å‘½ä»¤
+:: Exit ÓÃÀ´ÍÆ³öµ±Ç°ÃüÁî
 Exit
